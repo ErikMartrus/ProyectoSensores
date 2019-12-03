@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SeriesMania</string>
+    <string name="title_home">Home</string>
+    <string name="title_series">Series</string>
+    <string name="title_films">Films</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="labelLogin">Login</string>
+    <string name="textRegister">Register</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="labelRegister">Register</string>
+    <string name="hintRepeatPassword">Repeat Password</string>
+    <string name="action_salir">Salir</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "78167234891",
+    "firebase_url": "https://sensorespem.firebaseio.com",
+    "project_id": "sensorespem",
+    "storage_bucket": "sensorespem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78167234891:android:ed413fe31184b9085bb0ce",
+        "android_client_info": {
+          "package_name": "pem.proyectoSensores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78167234891-2l0m9hq00t3jvbjsm37chd9hj5epktoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_-th5SlynmfsRPxkoxQybjB0vehCaEDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78167234891-2l0m9hq00t3jvbjsm37chd9hj5epktoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
