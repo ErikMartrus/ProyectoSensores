@@ -4,12 +4,13 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import pem.proyectoSensores.AppMediador;
 import pem.proyectoSensores.R;
@@ -41,9 +42,9 @@ public class HomeActivity extends AppCompatActivity implements IViewHome,
         if (findViewById(R.id.contenedorDeFragmentos) != null) {
             // se crea el fragmento maestro y se anade al contenedor de fragmentos
             fragmentMasterHome = new FragmentMasterHome();
-            getSupportFragmentManager().beginTransaction()
+            /*getSupportFragmentManager().beginTransaction()
                     .add(R.id.contenedorDeFragmentos, fragmentMasterHome)
-                    .commit();
+                    .commit();*/
         }
         // Creacion de un boton flotante para que, cuando se seleccione, solicite al presentador principal que trate
         // la opcion de agregar una nueva receta
@@ -151,7 +152,7 @@ public class HomeActivity extends AppCompatActivity implements IViewHome,
 	        //es panel único
             //está en la vista del detalle
             FragmentTransaction transaccion = getSupportFragmentManager().beginTransaction();
-            transaccion.replace(R.id.contenedorDeFragmentos,fragmentMasterHome);
+            /*transaccion.replace(R.id.contenedorDeFragmentos,fragmentMasterHome);*/
             transaccion.addToBackStack(null);
             transaccion.commit();
             presentadorPrincipal.obtenerDatos();

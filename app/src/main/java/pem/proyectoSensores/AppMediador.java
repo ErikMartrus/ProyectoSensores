@@ -6,15 +6,16 @@ import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
 
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import pem.proyectoSensores.films.presenter.IPresenterFilms;
 import pem.proyectoSensores.films.presenter.PresenterFilms;
 import pem.proyectoSensores.films.view.IViewFilms;
 import pem.proyectoSensores.home.presenter.IPresenterHome;
-import pem.proyectoSensores.home.view.IViewHome;
 import pem.proyectoSensores.home.presenter.PresenterHome;
+import pem.proyectoSensores.home.view.IViewHome;
 import pem.proyectoSensores.login.IPresenterLogin;
 import pem.proyectoSensores.login.IViewLogin;
 import pem.proyectoSensores.login.LoginActivity;
